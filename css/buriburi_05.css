@@ -1,0 +1,225 @@
+*{
+    margin: 0; 
+}
+
+#wrap{
+    width: 100%; height: auto; margin: auto;
+    
+}
+
+/* ============================ */
+header{
+    width: 100%; height:80px; background-color: #ec7357; 
+   position: fixed; top: 0; left: 0;
+   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#head{
+    position: static;
+}
+
+.group_01{
+    width: 100%; margin:auto; padding-top: 20px; padding-bottom: 20px;
+}
+
+.logo{
+    float: left; margin-right: 20px; margin-left: 100px;
+    
+}
+
+.logo img{
+    display: block; width: 76px; height: 40px; 
+}
+
+.search{
+    border-radius: 16px; width: 500px; height: 42px;
+    background-color: #fff; margin: auto; float: left;
+    
+}
+
+#search_icon{
+    width: 22px; height: 22px; float: left; display: inline-block;
+    vertical-align: center; padding-top: 12px;
+    padding-left: 12px; 
+}
+
+.search a{
+    color: #000; width: inherit; height: inherit; font-family: 'Do Hyeon', sans-serif;
+}
+
+.search p{
+    font-size: 16px; text-align: center; font-family: 'Do Hyeon', sans-serif;
+    float: right; line-height: 43px; 
+
+}
+
+.center{
+    padding-right: 230px; 
+}   
+
+li{
+    display: inline-block; width: 100%; font-family: 'Noto Sans KR', sans-serif;
+}
+
+ul{
+     float: right;
+}
+
+.nav{
+    float: right; width: 650px;
+}
+
+.nav a{
+    text-decoration: none; color: #fff;
+    display: inline-block; font-weight: 400; width: 140px;
+    text-align: center; line-height: 40px;
+}
+
+.nav li{
+    border-left: 1px solid #fff;
+}
+
+.nav a:hover{
+    font-size: 1.1rem; line-height: 36px; font-weight: bold;
+}
+
+/* ============================= */
+.pic{
+    width: 100%; height: 510px; 
+    background-image: url(https://i.postimg.cc/rsM09kwS/Kakao-Talk-20201207-012452216.png);
+    background-repeat: no-repeat; background-size: cover; background-position: center center;
+    
+}
+
+.box{
+    width: 100%; height: 510px;
+    background-color: rgba(255, 255, 255, 0.4); margin: auto; 
+}
+
+h1{
+    font-size: 50px; font-family: 'Noto Sans KR', sans-serif;
+    line-height: 510px; text-align: center;  font-weight: 600;
+}
+
+
+/* ============================= */
+.content{
+    width: 100%; height: auto; margin: auto;
+}
+
+.all{
+    width: 1200px; height: auto; margin: auto; border: 1px solid #f0f0f3; background-color: #f0f0f3;
+    margin-top: 60px; margin-bottom: 60px;
+}
+
+.menu{
+    border: 1px solid white; margin: 40px; background-color: white;
+    width: 1120px; height: 320px; 
+}
+
+.detail_pic{
+    width: 480px; height: 320px; float: left;
+}
+
+
+.clearfix::after{
+    content: '';
+    display: block; clear: both;
+}
+
+.detail_ex{
+    padding: 46px; width: 564px; padding-left: 120px;
+    float: left; height: 320px; box-sizing: border-box;
+}
+
+h2{
+    font-size: 40px; color: #000; font-family: 'Noto Sans KR', sans-serif;
+}
+
+h3{
+    font-size: 16px; color: #545454; font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 12px; font-weight: 400;
+}
+
+#text {
+   font-weight: 100; font-size: 20px;
+}
+
+h4{
+    width: 150px; height: 40px; background-color: #ec7357;
+    font-size: 20px; color: #fff; display: inline-block;
+    margin-top: 22px; text-align: center; line-height: 40px;
+    font-family: 'Do Hyeon', sans-serif; font-weight: 100;
+}
+
+.content a{
+    text-decoration: none; color: #fff; width: 100%; height: 100%; 
+    display: block;
+}
+
+/* =============== */
+.list a{
+    color: #ec7357; line-height: 48px; font-family: 'Do Hyeon', sans-serif;
+    font-size: 32px; text-decoration: none; 
+    display: block; font-weight: 100;
+}
+
+.list li{
+    list-style: none; display: inline-block;
+    border: 4px solid #ec7357; width: 48px; height: 48px;
+    text-align: center; margin-left: 16px; margin-right: 16px; background-color: white;
+}
+
+.list{
+    margin: 56px auto; width: 324px; height: 56px; 
+
+}
+
+/* ============== */
+
+.list li a:hover{
+    color: #fff; background-color: #ec7357; 
+}   
+
+.list li:hover{
+    border: 4px solid #ec7357; 
+}
+
+/* ============================= */
+footer{
+    width: 100%; height: auto; background-color: #ec7357; 
+    float: left; 
+}
+
+.foot_content{
+    width: 50%;
+    float: left; box-sizing: border-box;
+
+}
+
+.foot_logo img{
+    width: 100px; padding-left: 70px; padding-top: 28px; 
+}
+.foot_content p{
+    padding-left: 70px; padding-top: 12px; color: #f0f0f3;
+    font-size: 12px; 
+}
+
+.per{
+    width: 10%; float: right;
+     height: 150px; padding-top: 50px; box-sizing: border-box;
+}
+
+.per span{
+    font-size: 16px; padding-right: 12px;
+    color: #fff; font-weight: 400; 
+}
+
+footer i{
+    color: #fff; padding-right: 10px; 
+}
+
+.per p{
+    color: #f0f0f3;  font-size: 14px; padding-right: 100px;
+    padding-top: 5px; text-align: right;
+}
